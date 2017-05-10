@@ -40,14 +40,14 @@ Module ModuleSmart
         If nGUID.EndsWith("6000-11D3-8CFE-0150048383C9}") = True Then 'Office XP-2003
             Try
                 'Release Version       
-                Int16.TryParse(nGUID.Substring(1, 1), nResult) 'Converts the string digit to int16 and puts it into the nResult varible for use.
+                Int16.TryParse(nGUID.Substring(1, 1), nResult) 'Converts the string digit to int16 and puts it into the nResult variable for use.
                 sBuilder.Append(CType(nResult, ReleaseVersion).ToString).Append(" ")
             Catch
                 'If the version is not one of the main 6 which is rare then don't return the version and continue.
             End Try
             Try
                 'Release Edition Type
-                Int16.TryParse(nGUID.Substring(2, 1), nResult) 'Converts the string digit to int16 and puts it into the nResult varible for use.
+                Int16.TryParse(nGUID.Substring(2, 1), nResult) 'Converts the string digit to int16 and puts it into the nResult variable for use.
                 sBuilder.Append(CType(nResult, ReleaseEditionTypeXP2003).ToString).Append(" ")
             Catch
                 'If any code errors happen then don't return any part of this and continue.
@@ -57,21 +57,21 @@ Module ModuleSmart
         ElseIf nGUID.EndsWith("0FF1CE}") = True Then 'Office 2007+
             Try
                 'Release Version       
-                Int16.TryParse(nGUID.Substring(1, 1), nResult) 'Converts the string digit to int16 and puts it into the nResult varible for use.
+                Int16.TryParse(nGUID.Substring(1, 1), nResult) 'Converts the string digit to int16 and puts it into the nResult variable for use.
                 sBuilder.Append(CType(nResult, ReleaseVersion).ToString).Append(" ")
             Catch
                 'If the version is not one of the main 6 which is rare then don't return the version and continue.
             End Try
             Try
                 'Release Type
-                Int16.TryParse(nGUID.Substring(2, 1), nResult) 'Converts the string digit to int16 and puts it into the nResult varible for use.
+                Int16.TryParse(nGUID.Substring(2, 1), nResult) 'Converts the string digit to int16 and puts it into the nResult variable for use.
                 sBuilder.Append(CType(nResult, ReleaseType2007Plus).ToString).Append(" ")
             Catch
                 'If any code errors happen then don't return any part of this and continue.
             End Try
             Try
                 'Release Architecture
-                Int16.TryParse(nGUID.Substring(20, 1), nResult) 'Converts the string digit to int16 and puts it into the nResult varible for use.
+                Int16.TryParse(nGUID.Substring(20, 1), nResult) 'Converts the string digit to int16 and puts it into the nResult variable for use.
                 sBuilder.Append(CType(nResult, ReleaseArch2007Plus).ToString)
             Catch
                 'If any code errors happen then don't return any part of this and continue.
@@ -108,12 +108,12 @@ Module ModuleSmart
                         arySubKeys.Add(s)
                     End If
                 Next
-            Else    'subkey doesnt exist
+            Else    'subkey doesn't exist
                 'The SubKey provided doesn't exist. Please check your entry and try again.
-                Return arySubKeys 'We return like this in case of error becaue the other code will recovery from this will out error. Any other way and the other code will break.
+                Return arySubKeys 'We return like this in case of error because the other code will recovery from this will out error. Any other way and the other code will break.
             End If
         Catch ex As Exception
-            Return arySubKeys 'We return like this in case of error becaue the other code will recovery from this will out error. Any other way and the other code will break.
+            Return arySubKeys 'We return like this in case of error because the other code will recovery from this will out error. Any other way and the other code will break.
         End Try
         Return arySubKeys 'return the subkeys arraylist if everything goes good.
     End Function
