@@ -1,4 +1,4 @@
-# Windows-Product-Key-Recovery
+# Windows Product Key Recovery
 This application can recovery keys from Windows, Office, and a few other products made by Microsoft that store their keys in the same way. Please only use the tool where you are allowed to. I originally created this tool so that I didn't have to trust the ones I found on the Internet. The design is starting to see its age since it was modeled around XP's registration window. This is my latest version of the tool, which now automatically detects new product editions without having to hardcode the support manually. There is still some work to be done before it becomes an official 2.0, so for now, consider it a working beta.
 
 ![alt text](https://github.com/StevenJDH/Windows-Product-Key-Recovery/raw/master/WPKR-SS.jpg "Screenshot")
