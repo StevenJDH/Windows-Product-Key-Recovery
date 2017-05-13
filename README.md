@@ -3,7 +3,7 @@ This application can recovery keys from Windows, Office, and a few other product
 
 ![alt text](https://github.com/StevenJDH/Windows-Product-Key-Recovery/raw/master/WPKR-SS.jpg "Screenshot")
 
-https://github.com/StevenJDH/Windows-Product-Key-Recovery
+Releases: https://github.com/StevenJDH/Windows-Product-Key-Recovery/releases
 
 Changelog: https://github.com/StevenJDH/Windows-Product-Key-Recovery/wiki/Changelog
 
