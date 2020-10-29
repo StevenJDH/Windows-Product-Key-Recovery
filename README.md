@@ -1,7 +1,12 @@
 # Windows Product Key Recovery
+
+![GitHub All Releases](https://img.shields.io/github/downloads/StevenJDH/Windows-Product-Key-Recovery/total)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/StevenJDH/Windows-Product-Key-Recovery?include_prereleases)
+![GitHub](https://img.shields.io/github/license/StevenJDH/Windows-Product-Key-Recovery)
+
 This application can recovery keys from Windows, Office, and a few other products made by Microsoft that store their keys in the same way. Please only use the tool where you are allowed to. I originally created this tool so that I didn't have to trust the ones I found on the Internet. The design is starting to see its age since it was modeled around XP's registration window. This is my latest version of the tool, which now automatically detects new product editions without having to hardcode the support manually. There is still some work to be done before it becomes an official 2.0, so for now, consider it a working beta.
 
-![Program Screenshot](https://github.com/StevenJDH/Windows-Product-Key-Recovery/raw/master/WPKR-SS.jpg "Screenshot")
+![Program Screenshot](WPKR-SS.jpg "Screenshot")
 
 Releases: [https://github.com/StevenJDH/Windows-Product-Key-Recovery/releases](https://github.com/StevenJDH/Windows-Product-Key-Recovery/releases)
 
@@ -19,15 +24,9 @@ This application should work on any mix configuration using 32-bit and 64-bit in
 * Clean up code for final 2.0 version.
 * Fix mod music not playing on systems newer than XP.
 
-## Why am I contributing?
-This is just one of many tools and applications I’ve created over the years for myself that I thought I should share with the public. I am new to GitHub so bear with me while I get adjusted. Hopefully, with community support, some of these applications will grow into something better.
-
 ## Do you have any questions?
 Many commonly asked questions are answered in the FAQ:
 [https://github.com/StevenJDH/Windows-Product-Key-Recovery/wiki/FAQ](https://github.com/StevenJDH/Windows-Product-Key-Recovery/wiki/FAQ)
-
-## Need to contact me?
-I can be reached here directly at [https://21.co/stevenjdh](https://21.co/stevenjdh "Contact Page")
 
 ## Want to show your support?
 
